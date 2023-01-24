@@ -39,13 +39,17 @@ nav > a:hover{
 }
 
 .titulo-h1{
+
+    flex-wrap: wrap;
     word-wrap: normal;
     min-width: 350px;
     max-width: 800px;
     margin: auto;
 }
 
-h1{    
+h1{  
+    flex-wrap: wrap;
+    word-wrap: normal;  
     margin-left: 78px;
     margin-top: 81px;
     width: 500px;
