@@ -234,11 +234,12 @@ aside figcaption{
        
 }
 .projetos-img{
-    
+
     border: 2px transparent;
     
 }
 .projetos-img:hover{
+
     border: 3px double orangered; 
 
 }
@@ -319,8 +320,10 @@ footer{
     color: orangered;
     font-weight: bolder;
     text-align: center;
-    font-size: 1em;
-    padding: 5px;
+    font-size: 1.5em;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    margin-bottom: 19px;
 }
 footer a{
 
