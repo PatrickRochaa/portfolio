@@ -15,8 +15,7 @@ nav{
     text-align: right;
     margin: 39px;
     margin-bottom: 16px;
-    margin-right: 44px;
-    
+    margin-right: 44px;   
     
 }
 nav > a{
@@ -37,7 +36,7 @@ nav > a:hover{
 }
 h1{
 
-    display: block;
+    
     margin-left: 78px;
     margin-top: 81px;
     width: 500px;
