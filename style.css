@@ -23,6 +23,7 @@ nav{
     margin-top: 18px;
     margin-bottom: -10px;
     padding: 7px;
+    cursor: pointer;
 }
 nav > a{
     
@@ -64,22 +65,25 @@ section{
     text-decoration: underline orangered;
 }
 .conteudo{
+
     display: table; 
     
 }
 .imagem{
+
     display: table-cell;
     float: right;
     margin-top: 0px;
-    margin-left: 275px;
+    margin-left: 200px;
     border-radius: 50%;
-   
+    cursor: pointer;
     
 }
 .imagem:hover{
     border: 5px  solid orangered;
 }
 .texto{
+
     display: table-cell;
     width: 246px;
     float: left;
@@ -91,6 +95,7 @@ section{
 }
  .curriculo{
 
+    cursor: pointer;
     padding-top: 1px;
     background-color: red;
     width: 100px;
@@ -112,11 +117,12 @@ div > a{
 }
 div#curriculo2{
     margin-top: 1px;
-    width: 100px;
+    width: 5px;
     margin-left: 80px;
 }
 aside{
 
+    
     min-width: 350px;
     max-width: 800px;
     margin: auto;
@@ -127,6 +133,8 @@ aside{
     border-bottom-right-radius: 10px;
 }
 h2{
+
+    cursor: pointer;
     color: white;
     margin-left: 65px;
     margin-top: 27px;
@@ -140,6 +148,7 @@ h2{
 }
  .habilidades{   
     
+    cursor: pointer;
     min-width: 350px;
     max-width: 800px;
     margin: auto;
@@ -152,6 +161,7 @@ h2{
 
 .habilidades .texto1{  
 
+    cursor: pointer;
     min-width: 350px;
     max-width: 800px;
     margin: auto;
@@ -166,12 +176,15 @@ h2{
 
 .logo{
 
+    cursor: pointer;
     min-width: 350px;
     max-width: 800px;
     margin: auto; 
     padding-top: 70px;
 }
 .box{
+
+    cursor: pointer;
     width: 100px;
     display: inline-block;
 }
@@ -192,6 +205,7 @@ aside > img{
 }
 aside figcaption{
 
+    cursor: pointer;
     text-align: end;
     font-weight: bolder;
     font-size: 1em;
@@ -201,6 +215,7 @@ aside figcaption{
 
 .projetos{
 
+    cursor: pointer;
     min-width: 350px;
     max-width: 800px;
     margin: auto;
@@ -209,14 +224,17 @@ aside figcaption{
 } 
 
 .organizacao{
+
     text-align: center;
 }
 
 .projetos:hover{
+
     text-decoration: 2px solid underline orangered; 
        
 }
 .projetos-img{
+    
     border: 2px transparent;
     
 }
