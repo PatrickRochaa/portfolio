@@ -15,17 +15,17 @@ main{
     
 }
 nav{
- 
-    max-width: 600px;
-    margin: auto;
-    text-align: right;
-    margin: 39px;
-    margin-bottom: 16px;
-    margin-right: 44px;   
     
+    text-align: right;
+    max-width: 787px;
+    height: 21px;
+    margin: auto;
+    margin-top: 18px;
+    margin-bottom: -10px;
+    padding: 7px;
 }
 nav > a{
-    text-align: right;
+    
     padding: 10px;
     text-decoration: none; 
     margin-bottom: 10px;   
@@ -40,21 +40,11 @@ nav > a:hover{
     margin: 0%;
     margin-bottom: 0%;   
 }
-
-.titulo-h1{
-
-    flex-wrap: wrap;
-    word-wrap: normal;
-    min-width: 350px;
-    max-width: 800px;
-    margin: auto;
-}
-
 h1{  
    
     text-align: justify;
     margin-left: 78px;
-    margin-top: 81px;
+    margin-top: 47px;
     width: 500px;
     height: 10px;
     font-size: 1.5em;
@@ -62,13 +52,12 @@ h1{
 }
 
 section{
-    min-width: 350px;
-    max-width: 800px;
+ 
+    max-width: 762px;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 0px;
     padding: 20px;
-    background-color: white
 }
   strong:hover{
     font-size: 1.5em;
@@ -81,7 +70,7 @@ section{
 .imagem{
     display: table-cell;
     float: right;
-    margin-top: -44px;
+    margin-top: 0px;
     margin-left: 275px;
     border-radius: 50%;
    
@@ -94,12 +83,15 @@ section{
     display: table-cell;
     width: 246px;
     float: left;
-    margin-top: 47px;
+    padding-top: 67px;
+    padding-bottom: 26px;
     margin-left: 78px;
     font-size: 1.3em;
     font-weight: normal;
 }
  .curriculo{
+
+    padding-top: 1px;
     background-color: red;
     width: 100px;
     height: 30px;    
@@ -119,6 +111,7 @@ div > a{
     text-decoration: none;    
 }
 div#curriculo2{
+    margin-top: 1px;
     width: 100px;
     margin-left: 80px;
 }
@@ -170,7 +163,6 @@ h2{
     height: 13px;
     font-size: 1.2em;
 } 
-
 
 .logo{
 
@@ -302,9 +294,6 @@ background: linear-gradient(
     height: 60px;
     width: 190px; 
 }
-
-
-
 
 footer{
 
