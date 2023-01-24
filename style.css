@@ -1,0 +1,312 @@
+@charset "UTF8";
+
+
+main{
+    
+    min-width: 350px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 0px;
+    background-color:transparent;
+    
+}
+nav{
+    text-align: right;
+    margin: 39px;
+    margin-bottom: 16px;
+    margin-right: 44px;
+    
+    
+}
+nav > a{
+    text-align: right;
+    padding: 10px;
+    text-decoration: none; 
+    margin-bottom: 10px;   
+    color:  rgb(81, 15, 148);
+    transition: 0.2s all ease;
+}
+nav > a:hover{
+    background-color: black;
+    border-radius: 5px;
+    color: red;
+    border-radius: 5px;
+    margin: 0%;
+    margin-bottom: 0%;   
+}
+h1{
+
+    display: block;
+    margin-left: 78px;
+    margin-top: 81px;
+    width: 500px;
+    height: 10px;
+    font-size: 1.5em;
+    color: rgb(2, 2, 2);
+}
+
+section{
+    min-width: 350px;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 20px;
+    background-color: white
+}
+  strong:hover{
+    font-size: 1.5em;
+    text-decoration: underline orangered;
+}
+.conteudo{
+    display: table; 
+    
+}
+.imagem{
+    display: table-cell;
+    float: right;
+    margin-top: -44px;
+    margin-left: 275px;
+    border-radius: 50%;
+   
+    
+}
+.imagem:hover{
+    border: 5px  solid orangered;
+}
+.texto{
+    display: table-cell;
+    width: 246px;
+    float: left;
+    margin-top: 47px;
+    margin-left: 78px;
+    font-size: 1.3em;
+    font-weight: normal;
+}
+ .curriculo{
+    background-color: red;
+    width: 100px;
+    height: 30px;    
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    color: rgb(241, 238, 238);  
+}
+.curriculo:hover{
+    width: 105px;
+    height: 35px;
+    border: 5px solid black;
+    border-radius: 8px;
+    background-color: rgb(255, 0, 0);
+}
+div > a{
+    text-decoration: none;    
+}
+div#curriculo2{
+    width: 100px;
+    margin-left: 80px;
+}
+aside{
+
+    min-width: 350px;
+    max-width: 800px;
+    margin: auto;
+    padding: -10px;
+    background-color: rgb(37, 3, 70);
+    padding-bottom: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+h2{
+    color: white;
+    margin-left: 65px;
+    margin-top: 27px;
+    width: 502px;
+    height: 13px;
+    margin-bottom: 30px; 
+    padding-bottom: 30px; 
+    font-size: 1.5em;
+    margin-left: 46px; 
+    margin-bottom: 1px;
+}
+ .habilidades{   
+    
+    min-width: 350px;
+    max-width: 800px;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+
+.habilidades .texto1{  
+
+    min-width: 350px;
+    max-width: 800px;
+    margin: auto;
+    color: white;
+    padding-top: 2px;
+    margin-left: -174px;
+    margin-top: 0px;
+    width: 1502px;
+    height: 13px;
+    font-size: 1.2em;
+} 
+
+
+.logo{
+
+    min-width: 350px;
+    max-width: 800px;
+    margin: auto; 
+    padding-top: 70px;
+}
+.box{
+    width: 100px;
+    display: inline-block;
+}
+.box:hover{
+    width: 120px;    
+}
+main img{
+    width: 100%;
+}
+aside > img{
+    display: inline-block;
+    min-width: 150px;
+    width: 300px;
+    min-height: 150px;
+    height: 150px;
+    
+    
+}
+aside figcaption{
+
+    text-align: end;
+    font-weight: bolder;
+    font-size: 1em;
+    text-align: center;
+    color: rgb(255, 249, 249);
+}
+
+.projetos{
+
+    min-width: 350px;
+    max-width: 800px;
+    margin: auto;
+    padding: 2px;
+    display: inline-block;
+} 
+
+.organizacao{
+    text-align: center;
+}
+
+.projetos:hover{
+    text-decoration: 2px solid underline orangered; 
+       
+}
+.projetos-img{
+    border: 2px transparent;
+    
+}
+.projetos-img:hover{
+    border: 3px double orangered; 
+
+}
+.titulo_projeto{
+
+    text-align: center;
+    margin-left: 3px;
+    display: inline-block;  
+    color:rgb(236, 233, 233);
+    padding-top: 2px;
+    margin-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    padding-left: 37px;
+}
+.texto-projetos{
+
+    color:rgb(245, 241, 241);
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 1px;
+    font-size: 1.5em;
+    text-shadow:  1px 5px 10px rgba(0, 0, 0, 0.788);
+}
+
+.vidro1{
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0.1)
+    );
+        backdrop-filter: blur(21px);
+        -webkit-backdrop-filter: blur(21px);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        border-radius: 10px 5px 24px 0px;
+        height: 46px;
+        width: 181px;
+        margin-left: 200px;
+        margin-bottom: 3px;
+        padding-top: 16px;
+        padding-bottom: 7px;
+        margin-top: 12px;
+             
+    }
+    .vidro1:hover{
+        text-decoration: underline orangered;      
+        height: 40px;
+        width: 190px;
+    }
+
+.vidro2 {
+background: linear-gradient(
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.1)
+);
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 0px 24px 5px 10px;
+    height: 46px;
+    width: 181px;
+    margin-left: 0px;
+    margin-bottom: 3px;
+    padding-top: 16px;
+    padding-bottom: 7px;
+    margin-top: 12px;
+}
+.vidro2:hover {   
+    text-decoration: 3px underline orangered;
+    height: 60px;
+    width: 190px; 
+}
+
+
+
+
+footer{
+
+    background-color: rgb(4, 4, 100);
+    color: orangered;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1em;
+    padding: 5px;
+}
+footer a{
+
+    color: orangered;
+    font-weight: bolder;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: darkorange;
+}
