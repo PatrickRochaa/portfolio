@@ -192,10 +192,9 @@ article >  div.projetos > figcaption{
     margin-bottom: 10px;
 }
  article > div.projetos img{
-    width: 400px;
+    width: 300px;
     margin-bottom: 10px;
     cursor: pointer;
-    border-radius:10px;
     
     
  }
