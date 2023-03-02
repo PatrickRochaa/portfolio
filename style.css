@@ -195,6 +195,7 @@ article >  div.projetos > figcaption{
     width: 400px;
     margin-bottom: 10px;
     cursor: pointer;
+    border-radius:10px;
     
     
  }
