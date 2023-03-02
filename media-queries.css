@@ -113,6 +113,16 @@
         margin-bottom: 10px;
         cursor: pointer;
      }
+
+     aside div.box > img{
+        width: 150px;
+      }
+
+      article > div.projetos img{
+        width: 400px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
 }
 
 
@@ -236,5 +246,14 @@
         cursor: pointer;
      }
 
+     aside div.box > img{
+        width: 150px;
+    }
+
+    article > div.projetos img{
+        width: 400px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
 
 }

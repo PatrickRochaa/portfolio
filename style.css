@@ -138,13 +138,15 @@ section{
     padding-bottom: 10px;
  }
  aside > img {
-    width: 100px;
+    
     padding:20px;
     display: block;
     
     
  }
-
+ aside div.box > img{
+   width: 100px;
+ }
  aside div.box{
     display: inline-block;    
     cursor: pointer;
@@ -187,7 +189,7 @@ article >  div.projetos > figcaption{
     margin-bottom: 10px;
 }
  article > div.projetos img{
-    width: 200px;
+    width: 300px;
     margin-bottom: 10px;
     cursor: pointer;
  }
