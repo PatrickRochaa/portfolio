@@ -62,9 +62,12 @@ menu > ul > li > a {
    
 }
 
+
 menu > ul > li > a:hover{
-    background-color: gray;
+    background-color: rgb(247, 244, 244);
+    color:rgb(58, 11, 58);
 }
+
 
 
 section{
