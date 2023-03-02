@@ -181,6 +181,9 @@ section{
     font-size: 1.3em;
     font-weight: bolder;
  }
+
+ 
+
 article >  div.projetos > figcaption{
    
     color: white;
@@ -189,9 +192,11 @@ article >  div.projetos > figcaption{
     margin-bottom: 10px;
 }
  article > div.projetos img{
-    width: 350px;
+    width: 450px;
     margin-bottom: 10px;
     cursor: pointer;
+    
+    
  }
 
 

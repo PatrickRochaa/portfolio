@@ -14,6 +14,8 @@ function clickMenu(){
     }
 }
 
+/*
+
 let = 1;
 
 document.getElementById("radio1").checked = true;
@@ -29,3 +31,5 @@ function nextImage(){
     }
     document.getElementById("radio"+count).checked = true;
 }
+
+*/
