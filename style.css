@@ -165,10 +165,12 @@ section{
     border-radius:0px 0px 10px 10px;
     text-align: center;
     background-color: rgb(58, 11, 58);
+    height: 350px;
     margin-bottom: 10px;
     
  }
 
+ 
  article > h2{
     text-align: left;
     color: white;
@@ -176,34 +178,98 @@ section{
     padding-bottom: 10px;
  }
 
- article > figcaption{
-    color: white;
-    font-size: 1.3em;
-    font-weight: bolder;
+ article > div.slider{
+   
+   width: 300px;
+   height: 300px;
+   margin: 0 auto;
+   overflow: hidden;
  }
 
+ article > div.slider > div.slides{
+   width: 400%;
+   height: 100%;
+   display: flex;
+ }
+
+ article > div.slider > div.slides > input{
+   display: none;
+ }
+
+ article > div.slider > div.slide{
+   width: 25%;
+   position: relative;
+   transition: 2s;
+ }
+
+ article > div.slider > div.manual-navigation{
+   position: absolute;
+   width: 300px;
+   margin-top: -110px;
+   display: flex;
+   justify-content: center;
+ }
+
+ article > div.slider > div.manual-navigation > label.manual-btn{
+   border: 2px solid white;
+   padding: 5px;
+   border-radius: 10px;
+   cursor:pointer;
+ }
+
+ #radio1:checked ~ .first{
+   margin-left: 0;
+ }
+
+ #radio2:checked ~ .first{
+   margin-left: -25%;
+ }
+
+ #radio3:checked ~ .first{
+   margin-left:-50%;
+ }
+
+ #radio4:checked ~ .first{
+   margin-left:-75%;
+ }
+
+
+
+ article > div.slider > div.manual-navigation > label.manual-btn:not(:last-child){
+   margin-right: 40px;
+ }
+
+ article > div.slider > div.manual-navigation > label.manual-btn:hover{
+   background-color: white;
+ }
+
+
+
+ article > div.slider > div.slides > div.slide-first > figcaption{
+   color: white;
+   font-size: 1.5em;
+   font-weight: bolder;
+   padding: 10px;
+ }
+
+
+
+ article > div.slider > div.slides > div.slide-first > img{
+   width: 300px;
+ }
+
+ article > div.slider > div.slides > div.slide > figcaption{
+   color: white;
+   font-size: 1.5em;
+   font-weight: bolder;
+   padding: 10px;
+ }
+ 
+ article > div.slider > div.slides > div.slide > img{
+   width: 300px;
+ }
  
 
-article >  div.projetos > figcaption{
-   
-    color: white;
-    font-size: 1.3em;
-    font-weight: bolder;
-    margin-bottom: 10px;
-}
- article > div.projetos img{
-    width: 300px;
-    margin-bottom: 10px;
-    cursor: pointer;
-    
-    
- }
-
-
- article > div.projetos:hover{
-    -webkit-transform: scale(1.1);
-    text-decoration: 2px underline red;
- }
 
  footer{
    background-color: rgb(2, 2, 58);
@@ -251,6 +317,35 @@ strong:hover{
 }
 /*
  
+ article > figcaption{
+    color: white;
+    font-size: 1.3em;
+    font-weight: bolder;
+ }
+
+ 
+
+article >  div.projetos > figcaption{
+   
+    color: white;
+    font-size: 1.3em;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+ article > div.projetos img{
+    width: 300px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+    
+ }
+
+
+ article > div.projetos:hover{
+    -webkit-transform: scale(1.1);
+    text-decoration: 2px underline red;
+ }
+
 footer a{
     color: white;
     font-weight: bolder;

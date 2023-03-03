@@ -114,7 +114,15 @@
         font-size: 2em;
         padding: 25px;
      }
-
+     
+     article{
+        border-radius:0px 0px 10px 10px;
+        text-align: center;
+        background-color: rgb(58, 11, 58);
+        height: 650px;
+        margin-bottom: 10px;
+        
+     }
      article > h2{
         text-align: left;
         color: rgb(247, 244, 244);
@@ -127,18 +135,106 @@
         width: 150px;
       }
 
-      article > div.projetos img{
+      article > div.slider{
+   
         width: 700px;
-        margin-bottom: 10px;
-        cursor: pointer;
-    }
+        height: 600px;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+     
+      article > div.slider > div.slides{
+        width: 400%;
+        height: 100%;
+        display: flex;
+      }
+     
+      article > div.slider > div.slides > input{
+        display: none;
+      }
+     
+      article > div.slider > div.slide{
+        width: 25%;
+        position: relative;
+        transition: 1s;
+      }
+     
+      article > div.slider > div.manual-navigation{
+        position: absolute;
+        width: 700px;
+        margin-top: -100px;
+        display: flex;
+        justify-content: center;
+      }
+     
+      article > div.slider > div.manual-navigation > label.manual-btn{
+        border: 2px solid white;
+        padding: 5px;
+        border-radius: 10px;
+        cursor:pointer;
+      }
+     
+      #radio1:checked ~ .first{
+        margin-left: 0;
+      }
+     
+      #radio2:checked ~ .first{
+        margin-left: -25%;
+      }
+     
+      #radio3:checked ~ .first{
+        margin-left:-50%;
+      }
+     
+      #radio4:checked ~ .first{
+        margin-left:-75%;
+      }
+     
+     
+     
+      article > div.slider > div.manual-navigation > label.manual-btn:not(:last-child){
+        margin-right: 40px;
+      }
+     
+      article > div.slider > div.manual-navigation > label.manual-btn:hover{
+        background-color: white;
+      }
+     
+     
+     
+      article > div.slider > div.slides > div.slide-first > figcaption{
+        color: white;
+        font-size: 1.5em;
+        font-weight: bolder;
+        padding: 10px;
+      }
+     
+     
+     
+      article > div.slider > div.slides > div.slide-first > img{
+        width: 700px;
+      }
+     
+      article > div.slider > div.slides > div.slide > figcaption{
+        color: white;
+        font-size: 1.5em;
+        font-weight: bolder;
+        padding: 10px;
+      }
+      
+      article > div.slider > div.slides > div.slide > img{
+        width: 700px;
+      }
+      
 }
 
 
 
 
 
-/* telas grandes*/
+/*========================= telas grandes    ===============*/
+
+
 @media screen and (min-width:992px){
     *{
         margin: 0px;
@@ -257,6 +353,14 @@
         padding-bottom: 10px;
      }
 
+     article{
+        border-radius:0px 0px 10px 10px;
+        text-align: center;
+        background-color: rgb(58, 11, 58);
+        height: 650px;
+        margin-bottom: 10px;
+        
+     }
      article > h2{
         text-align: left;
         color: white;
@@ -266,20 +370,96 @@
         margin-left: 15px;
      }
 
-     article > div.projetos img{
-        width: 600px;
-        margin-bottom: 10px;
-        cursor: pointer;
-     }
-
-     aside div.box > img{
-        width: 150px;
-    }
-
-    article > div.projetos img{
+ 
+      article > div.slider{
+   
         width: 700px;
-        margin-bottom: 10px;
-        cursor: pointer;
-    }
+        height: 600px;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+     
+      article > div.slider > div.slides{
+        width: 400%;
+        height: 100%;
+        display: flex;
+      }
+     
+      article > div.slider > div.slides > input{
+        display: none;
+      }
+     
+      article > div.slider > div.slide{
+        width: 25%;
+        position: relative;
+        transition: 1s;
+      }
+     
+      article > div.slider > div.manual-navigation{
+        position: absolute;
+        width: 700px;
+        margin-top: -100px;
+        display: flex;
+        justify-content: center;
+      }
+     
+      article > div.slider > div.manual-navigation > label.manual-btn{
+        border: 2px solid white;
+        padding: 5px;
+        border-radius: 10px;
+        cursor:pointer;
+      }
+     
+      #radio1:checked ~ .first{
+        margin-left: 0;
+      }
+     
+      #radio2:checked ~ .first{
+        margin-left: -25%;
+      }
+     
+      #radio3:checked ~ .first{
+        margin-left:-50%;
+      }
+     
+      #radio4:checked ~ .first{
+        margin-left:-75%;
+      }
+     
+     
+     
+      article > div.slider > div.manual-navigation > label.manual-btn:not(:last-child){
+        margin-right: 40px;
+      }
+     
+      article > div.slider > div.manual-navigation > label.manual-btn:hover{
+        background-color: white;
+      }
+     
+     
+     
+      article > div.slider > div.slides > div.slide-first > figcaption{
+        color: white;
+        font-size: 1.5em;
+        font-weight: bolder;
+        padding: 10px;
+      }
+     
+     
+     
+      article > div.slider > div.slides > div.slide-first > img{
+        width: 700px;
+      }
+     
+      article > div.slider > div.slides > div.slide > figcaption{
+        color: white;
+        font-size: 1.5em;
+        font-weight: bolder;
+        padding: 10px;
+      }
+      
+      article > div.slider > div.slides > div.slide > img{
+        width: 700px;
+      }
 
 }

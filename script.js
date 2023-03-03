@@ -1,3 +1,20 @@
+
+let count = 1;
+
+document.getElementById("radio1").checked = true;
+
+setInterval( function(){
+    nextImage();
+}, 2000)
+
+function nextImage(){
+    count++;
+    if(count>4){
+        count = 1;
+    }
+    document.getElementById("radio"+count).checked = true;
+}
+
 function mudouTamanho(){
     if( window.innerWidth >=768){
        itens.style.display = 'block'
@@ -13,23 +30,3 @@ function clickMenu(){
         itens.style.display = 'block'
     }
 }
-
-/*
-
-let = 1;
-
-document.getElementById("radio1").checked = true;
-
-setInterva( function(){
-    nextImage();
-}, 5000)
-
-function nextImage(){
-    count++;
-    if(count>4){
-        count = 1;
-    }
-    document.getElementById("radio"+count).checked = true;
-}
-
-*/
