@@ -123,6 +123,11 @@
         margin-bottom: 10px;
         
      }
+
+     aside div.box > img{
+      width: 150px;
+    }
+    
      article > h2{
         text-align: left;
         color: rgb(247, 244, 244);
@@ -131,9 +136,7 @@
         margin-left: 15px;
      }
 
-     aside div.box > img{
-        width: 150px;
-      }
+   
 
       article > div.slider{
    
@@ -201,30 +204,34 @@
       }
      
      
-     
-      article > div.slider > div.slides > div.slide-first > figcaption{
-        color: white;
-        font-size: 1.5em;
-        font-weight: bolder;
-        padding: 10px;
+      article > div.slider > div.slides > div.slide-first > img{
+        width: 300px;
       }
      
-     
-     
-      article > div.slider > div.slides > div.slide-first > img{
+      
+      article > div.slider > div.slides > div.slide > a > img{
+        
         width: 700px;
       }
      
+      article > div.slider > div.slides > div.slide > img{
+        width: 700px;
+      }
+      
       article > div.slider > div.slides > div.slide > figcaption{
         color: white;
         font-size: 1.5em;
         font-weight: bolder;
         padding: 10px;
       }
-      
-      article > div.slider > div.slides > div.slide > img{
-        width: 700px;
+
+      article > div.slider > div.slides > div.slide > a > figcaption{
+        color: white;
+        font-size: 1.5em;
+        font-weight: bolder;
+        padding: 10px;
       }
+      
       
 }
 
@@ -438,28 +445,33 @@
      
      
      
-      article > div.slider > div.slides > div.slide-first > figcaption{
-        color: white;
-        font-size: 1.5em;
-        font-weight: bolder;
-        padding: 10px;
+      article > div.slider > div.slides > div.slide-first > img{
+        width: 300px;
       }
      
-     
-     
-      article > div.slider > div.slides > div.slide-first > img{
+      
+      article > div.slider > div.slides > div.slide > a > img{
+        
         width: 700px;
       }
      
+      article > div.slider > div.slides > div.slide > img{
+        width: 700px;
+      }
+      
       article > div.slider > div.slides > div.slide > figcaption{
         color: white;
         font-size: 1.5em;
         font-weight: bolder;
         padding: 10px;
       }
-      
-      article > div.slider > div.slides > div.slide > img{
-        width: 700px;
+
+      article > div.slider > div.slides > div.slide > a > figcaption{
+        color: white;
+        font-size: 1.5em;
+        font-weight: bolder;
+        padding: 10px;
       }
+      
 
 }
