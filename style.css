@@ -11,7 +11,7 @@
  main{
     padding-top: -4px;
     background-color: aqua;
-    width: 90vw;
+    width: 100vw;
     border-radius:0px 0px 10px 10px;
     margin:auto;
  }
@@ -311,7 +311,9 @@ strong:hover{
    text-decoration: 2px underline red;
 }
 
-
+.foto{
+   height: 300px;
+}
 
 
 /*
