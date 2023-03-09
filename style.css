@@ -8,6 +8,10 @@
  body{
     background-color: rgb(250, 247, 247);
 }
+
+html{
+   scroll-behavior: smooth;
+}
  main{
     padding-top: -4px;
     background-color: aqua;
@@ -257,7 +261,9 @@ section{
  article > div.slider > div.slides > div.slide > img{
    width: 300px;
  }
- 
+
+
+
  article > div.slider > div.slides > div.slide > a > figcaption{
    color: white;
    font-size: 1.5em;
@@ -300,6 +306,11 @@ footer a{
 footer a:hover{
     text-decoration: underline;
     color: darkorange;
+}
+
+footer > h2{
+   color:red;
+   display:none;
 }
 
 a{
