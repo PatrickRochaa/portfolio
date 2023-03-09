@@ -14,7 +14,7 @@ html{
 }
  main{
     padding-top: -4px;
-    background-color: aqua;
+    background-color: rgb(250, 250, 250);
     width: 100vw;
     border-radius:0px 0px 10px 10px;
     margin:auto;
@@ -32,7 +32,6 @@ span#burguer{
     padding:10px;
     cursor: pointer;
 }
-
 span#burguer:hover{
     background-color: white;
     color: black;
@@ -61,7 +60,7 @@ menu > ul > li > a {
     text-decoration: none;
     text-align: center;
     background-color: rgb(58, 11, 58);
-    border: 1px solid rgb(122, 118, 118); 
+    border: 1px solid rgb(118, 122, 119); 
     transition: 0.3s ease-in-out;
    
 }
