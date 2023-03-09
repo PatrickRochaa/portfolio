@@ -12,16 +12,17 @@
 html{
    scroll-behavior: smooth;
 }
+
  main{
     padding-top: -4px;
-    background-color: rgb(250, 250, 250);
+    background-color: aqua;
     width: 100vw;
     border-radius:0px 0px 10px 10px;
     margin:auto;
  }
 
 header{
-    background-color: rgb(122, 118, 118);
+    background-color: white;
 }
 
 span#burguer{
@@ -32,6 +33,7 @@ span#burguer{
     padding:10px;
     cursor: pointer;
 }
+
 span#burguer:hover{
     background-color: white;
     color: black;
@@ -60,7 +62,7 @@ menu > ul > li > a {
     text-decoration: none;
     text-align: center;
     background-color: rgb(58, 11, 58);
-    border: 1px solid rgb(118, 122, 119); 
+    border: 1px solid rgb(122, 118, 118); 
     transition: 0.3s ease-in-out;
    
 }
@@ -260,9 +262,7 @@ section{
  article > div.slider > div.slides > div.slide > img{
    width: 300px;
  }
-
-
-
+ 
  article > div.slider > div.slides > div.slide > a > figcaption{
    color: white;
    font-size: 1.5em;
@@ -305,11 +305,6 @@ footer a{
 footer a:hover{
     text-decoration: underline;
     color: darkorange;
-}
-
-footer > h2{
-   color:red;
-   display:none;
 }
 
 a{
