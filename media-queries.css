@@ -12,6 +12,10 @@
         
     }
 
+    div.burguer {
+      display:none;
+    }
+    
     header{
         text-align: right;        
         background-color:white;
@@ -252,6 +256,10 @@
         
         background-color: rgb(247, 247, 247);
         
+    }
+
+    div.burguer {
+      display:none;
     }
 
     main{

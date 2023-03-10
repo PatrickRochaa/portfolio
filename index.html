@@ -16,16 +16,21 @@
     
 </head>
 <body onresize="mudouTamanho()">
-    <header>        
-        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
-            menu
-            </span>
+    <header>   
+        <input type="checkbox" class="menuFake" onclick="clickMenu()">     
+     <div class="burguer" >
+        <span></span>
+        <span></span>
+        <span></span>
+     </div>
+            
         <menu id="itens">
             <ul>                
                 <li><a href="#habilidades">Habilidades</a></li>                
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#contato">Rede Sociais</a></li>
             </ul>
+           
         </menu>
     </header>
         <main>
@@ -134,6 +139,10 @@
 </html>
 
 <!--
+       <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+            </span>
+
      <div class="projetos">
                 <figcaption >Relógio</figcaption><br>
                  <img src="Projetos/reloogio-digital-g.png" class="projetos-img" alt="relogio digital">
