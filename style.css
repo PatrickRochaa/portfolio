@@ -204,7 +204,7 @@ section{
  }
 
  article > div.slider > div.slide{
-   width: 25%;
+   width: 20%;
    position: relative;
    transition: 2s;
  }
@@ -238,6 +238,10 @@ section{
 
  #radio4:checked ~ .first{
    margin-left:-75%;
+ }
+
+ #radio5:checked ~ .first{
+   margin-left:-100%;
  }
 
 
